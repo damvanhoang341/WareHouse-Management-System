@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-bar {
+    flex: 1;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+.actions select, .actions button {
+    margin-left: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.btn img {
+    width: 20px;
+    height: 20px;
+}

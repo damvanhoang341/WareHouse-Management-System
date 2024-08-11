@@ -1,0 +1,166 @@
+
+
+td{
+    text-align: center;
+}
+.inputInfo {
+    width: 100%;
+    display: flex; /* Make the container a flexbox */
+}
+
+.infoBill{
+    width: 20%;
+}
+
+.infoBill table{
+    width: 95%;
+}
+
+.product {
+    width: 80%;
+
+}
+.product table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.5s ease;
+
+}
+
+.product table:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.listProduct{
+    margin-top: 5px;
+    width: 100%;
+
+}
+
+.listProductChoose {
+    width: 100%;
+}
+.listProductChoose table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.5s ease;
+
+}
+.listProductChoose table:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+.funcBill{
+    justify-content: center;
+}
+
+.funcBill button{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    margin-left: 45%;
+}
+
+
+
+/*Chức năng hiển thị*/
+
+
+table#productTable tbody {
+    display: block;
+    max-height: 230px; /* Adjust as needed, approximately 4 rows */
+    overflow-y: auto;
+}
+
+table#productTable thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table#productTable thead {
+    width: calc(100% - 1em);
+}
+
+.listProductChoose tbody {
+    display: block;
+    max-height: 200px; /* Adjust as needed, approximately 4 rows */
+    overflow-y: auto;
+}
+
+.listProductChoose thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.listProductChoose thead {
+    width: calc(100% - 1em);
+}
+
+/* Chức năng tìm kiếm */
+.searchProd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchProd input{
+    width: 30%;
+    margin-bottom: 10px;
+}
+/* button */
+
+.button-71 {
+    /* CSS */
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .button-71 {
+        padding: 16px 48px;
+    }
+}

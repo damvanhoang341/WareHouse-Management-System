@@ -1,0 +1,111 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:70px 20px;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card, .report-card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card .number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card .label {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .chart {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.report-card {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.report-card h2 {
+    margin-top: 0;
+}
+
+.legend {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.products {
+    background-color: #36a2eb;
+}
+
+.services {
+    background-color: #4caf50;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.increase {
+    color: green;
+}
+
+.decrease {
+    color: red;
+}
+
+.gradient1 {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+.gradient2 {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+}
+
+.gradient3 {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+}
+
+.gradient4 {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/Contact/contract.jsp" value="file://$PROJECT_DIR$/src/main/webapp/Contact" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/Supplier/add-supplier.jsp" value="file://$PROJECT_DIR$/src/main/webapp/Supplier" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/debt/debtPaid.jsp" value="file://$PROJECT_DIR$/src/main/webapp/debt" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/function.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/home.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/inventory/inventory.jsp" value="file://$PROJECT_DIR$/src/main/webapp/inventory" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/product/Inventory.jsp" value="file://$PROJECT_DIR$/src/main/webapp/product" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/productCategory/addProduct.jsp" value="file://$PROJECT_DIR$/src/main/webapp/productCategory" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/user/add-user.jsp" value="file://$PROJECT_DIR$/src/main/webapp/user" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/user/update-user.jsp" value="file://$PROJECT_DIR$/src/main/webapp/user" />
+      </map>
+    </option>
+  </component>
+</project>
